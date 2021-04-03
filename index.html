@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/color/64/000000/calculator--v1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator-body">
+        <p class="owner">🧮 Made By Okhunov.</p>
+        <div id="outcome">0</div>
+        <div>
+            <div class="rows first-row">
+                <button id="clear" class="del-button"><b>AC</b></button>
+                <button value="%"  class="button-style allOperators">%</button>
+                <button value="+" class="button-style plus-button allOperators" id="plus">+</button>
+            </div>
+            <div class="rows">
+                <button value="7" class="button-style number">7</button>
+                <button value="8" class="button-style number">8</button>
+                <button value="9" class="button-style number">9</button>
+                <button value="-" class="button-style minus-button allOperators" id="minus">-</button>
+            </div>
+            <div class="rows">
+                <button value="4" class="button-style number">4</button>
+                <button value="5" class="button-style number">5</button>
+                <button value="6" class="button-style number">6</button>
+                <button value="*" class="button-style mlt-button allOperators">*</button>
+            </div>
+            <div class="rows">
+                <button value="3" class="button-style number">3</button>
+                <button value="2" class="button-style number">2</button>
+                <button value="1" class="button-style number">1</button>
+                <button value="/" class="button-style divide-button allOperators">÷</button>
+            </div>
+            <div class="rows">
+                <button value="0" id="zero" class="button-style zero-button">0</button>
+                <button value="." id="dot" class="button-style dot-button">.</button>
+                <button value="" id="equal" class="button-style equal-button">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <div id="qrcode"></div>
+<script type="text/javascript">
+</script>
+</body>
+</html>
